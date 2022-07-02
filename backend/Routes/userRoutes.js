@@ -1,6 +1,6 @@
 const express = require("express");
 const { registerUser, authUser } = require("../controllers/userControllers");
-// const { startSession } = require("../models/userModel");
+
 const router = express.Router();
 
 console.log("inside userRoute");
